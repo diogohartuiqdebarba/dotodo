@@ -8,7 +8,7 @@ DoTODO read a file and shows the list using the build/dotodo-<VERSION>.html in t
 # => h1
 ## => h2
 ### => h3
-___ => <hr>
+___ => hr
 @list-description => an italic h3 short list description
 @todo => gray list item
 @doing => yellow list item
