@@ -24,6 +24,7 @@ body {
 .left-vertical {
   display: flex;
   margin-left: 10%;
+  margin-right: 4%;
   flex-direction: column;
 }
 
