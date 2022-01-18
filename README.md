@@ -1,6 +1,6 @@
 # DoTODO
 
-DoTODO read a file and shows the list using the build/dotodo-<VERSION>.html in the browser.
+DoTODO read a file and shows the list using the build/dotodo-VERSION.html in the browser.
 
 ### Marks
 
@@ -35,6 +35,6 @@ music 1 @done
 sound 2 @todo
 ```
 
-### The result after load build/dotodo-<VERSION>.html in the browser:
+### The result after load build/dotodo-VERSION.html in the browser:
 
 ![DoTODO list example](img/list-example.png)
