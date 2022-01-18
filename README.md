@@ -4,15 +4,17 @@ DoTODO read a file and shows the list using the build/dotodo-<VERSION>.html in t
 
 ### Marks
 
-\# => h1
-\## => h2
-\### => h3
-\_\_\_ => <hr>
+```
+# => h1
+## => h2
+### => h3
+___ => <hr>
 @list-description => an italic h3 short list description
 @todo => gray list item
 @doing => yellow list item
 @done => green strikethrough list item
 @canceled => red strikethrough list item
+```
 
 ### Example list file:
 
