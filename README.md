@@ -1,4 +1,4 @@
-# Do TODO
+# DoTODO
 
 DoTODO read a file and shows the list using the build/dotodo-<VERSION>.html in the browser.
 
@@ -34,3 +34,7 @@ model 3 @todo
 music 1 @done
 sound 2 @todo
 ```
+
+### The result after load build/dotodo-<VERSION>.html in the browser:
+
+![DoTODO list example](img/list-example.png)
