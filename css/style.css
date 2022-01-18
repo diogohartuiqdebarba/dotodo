@@ -1,0 +1,48 @@
+body {
+  font-family: Verdana, sans-serif;
+  font-size: small;
+  background-color: #fffffb;
+}
+
+.title-div {
+  margin-top: 10%;
+}
+
+.center-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-vertical {
+  display: flex;
+  margin-left: 10%;
+  flex-direction: column;
+}
+
+.center-div {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.list {
+  margin-top: 5%;
+}
+
+.gray-span {
+  color: gray;
+}
+
+.yellow-span {
+  color: #f1e05a;
+}
+
+.green-span {
+  color: #2da44e;
+}
+
+.red-span {
+  color: #cf222e;
+}
