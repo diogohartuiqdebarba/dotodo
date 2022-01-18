@@ -4,6 +4,13 @@ body {
   background-color: #fffffb;
 }
 
+.footer {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
 .title-div {
   margin-top: 10%;
 }

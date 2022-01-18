@@ -10,50 +10,57 @@
             font-family: Verdana, sans-serif;
             font-size: small;
             background-color: #fffffb;
-            }
+        }
+            
+        .footer {
+            width: 100%;
+            margin-top: 2%;
+            margin-bottom: 1%;
+            text-align: center;
+        }
 
-            .title-div {
+        .title-div {
             margin-top: 10%;
-            }
+        }
 
-            .center-horizontal {
+        .center-horizontal {
             display: flex;
             justify-content: center;
             align-items: center;
-            }
+        }
 
-            .left-vertical {
+        .left-vertical {
             display: flex;
             margin-left: 10%;
             flex-direction: column;
-            }
+        }
 
-            .center-div {
+        .center-div {
             position: fixed;
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
-            }
+        }
 
-            .list {
+        .list {
             margin-top: 5%;
-            }
+        }
 
-            .gray-span {
+        .gray-span {
             color: gray;
-            }
+        }
 
-            .yellow-span {
+        .yellow-span {
             color: #f1e05a;
-            }
+        }
 
-            .green-span {
+        .green-span {
             color: #2da44e;
-            }
+        }
 
-            .red-span {
+        .red-span {
             color: #cf222e;
-            }
+        }
     </style>
   </head>
   <body>
@@ -70,6 +77,7 @@
       <div id="list" class="list left-vertical">
       </div>
     </div>
+    <div class="footer"><i><small>Powered by @diogohartuiqdebarba</small></i></div>
     <script>
         function getRuleFormatted(line) {
             if (line.includes(' @list-description')) {
