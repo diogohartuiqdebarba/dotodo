@@ -23,12 +23,12 @@ function getRuleFormatted(line) {
         const endSpan = line.replace(' @doing', '</span>');
         return { formatted: span.concat(endSpan), newline: true };
     } else if (line.includes(' @done')) {
-        const span = '<span class="green-span">';
-        const endSpan = line.replace(' @done', '</span>');
+        const span = '<span class="green-span"><s>';
+        const endSpan = line.replace(' @done', '</s></span>');
         return { formatted: span.concat(endSpan), newline: true };
     } else if (line.includes(' @canceled')) {
-        const span = '<span class="red-span">';
-        const endSpan = line.replace(' @canceled', '</span>');
+        const span = '<span class="red-span"><s>';
+        const endSpan = line.replace(' @canceled', '</s></span>');
         return { formatted: span.concat(endSpan), newline: true };
     } else if (/\r\n|\n/.exec(line) || line === '') {
         return { formatted: null, newline: null };
